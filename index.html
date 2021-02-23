@@ -1,16 +1,36 @@
 <!doctype html>
-<html lang="en">
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-gb" class="no-js">
+<!--<![endif]-->
 <head>
-    <script data-ad-client="ca-pub-8466421620401413" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PortableMC</title>
-    <link rel="shortcut icon" href="https://cdn.glitch.com/373e4f55-891e-451f-83a5-4ce6d8a90664%2Flogo.ico?v=1607013341196" />
-    <link rel="stylesheet" href="css/bulma.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script data-ad-client="ca-pub-8466421620401413" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--[if lt IE 9]> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+<title>PortableMC</title>
+<meta name="description" content="Portable Minecraft!">
+<meta name="author" content="yeetedmeme">
+<!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!--[if lte IE 8]>
+		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/animate.css" rel="stylesheet" media="screen">
+<!-- Owl Carousel Assets -->
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+<!-- Font Awesome -->
+<link href="font/css/font-awesome.min.css" rel="stylesheet">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZRBBD3XC3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -19,256 +39,94 @@
 
   gtag('config', 'G-1ZRBBD3XC3');
 </script>
-
-    <style>
-        .hero.is-large .hero-body {
-            padding-bottom: 0;
-            padding-top: 10rem;
-        }
-        .hero figure {
-            height: 0;
-            padding-bottom: 75%;
-            overflow: hidden;
-        }
-        figure.image {
-            padding-left: 50px;
-            padding-right: 50px;
-        }
-        .bg-white {
-            background-color: #ffffff;
-        }
-        .bg-light {
-            background-color: #faf6fb;
-        }
-        .media-left {
-            padding-left: 15px;
-        }
-        .media-left .icon {
-            margin-top: 15px;
-
-        }
-
-        .media-content {
-            padding-left: 25px;
-        }
-
-        .media {
-            background-color: #ffffff;
-            padding: 25px;
-        }
-
-        .section {
-            padding: 7rem 5rem;
-        }
-
-        .content h1 {
-            margin-bottom: 2em;
-        }
-
-        #stn-download {
-            color: #ffffff;
-            background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-        }
-
-        .hero.is-landing {
-            color: #ffffff;
-            background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
-        }
-
-        .hero.is-landing * {
-            color: #ffffff;
-        }
-
-        #stn-download h1 {
-            color: #ffffff;
-        }
-
-        .button.button-store {
-            border-radius: 3px;
-            background: #FFF;
-            box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
-            font-size: 14px;
-            font-weight: 500;
-            color: #633991;
-            margin: 0.5rem;
-            padding: 0.7rem 1.6rem;
-            line-height: 1.8;
-            height: auto;
-            text-transform: uppercase;
-            transition: all 0.3s ease;
-
-            display: inline-block;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: middle;
-        }
-
-        .button.button-store:hover {
-            color: #000000;
-            background-color: #faf6fb;
-        }
-
-        .button.button-store img {
-            margin-right: 0.4rem;
-            vertical-align: text-bottom;
-        }
-    </style>
 </head>
-<body>
+
+<body> 	
+ <nav id="mainNav">
+ <div id="menuToggle"><i class="fa fa-bars"></i></div>
+	<ul class="menuLinks">
+	  <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
+	  <li><a href="#services" class="scroll-link">About</a></li>
+	</ul>
+  </nav>
+<!--/.header-->
+<div id="#top"></div>
+<section id="home">
+  <div class="banner-container"> 
+    <div class="container banner-content">
+<div id="logo" class="animated fadeInDown"><a href="#home"><img src="images/logo.png" alt="logo"></a></div>
+      <div class="hero-text animated fadeInDownBig">
+        <h1 class="responsive-headline" style="font-size: 40px;">PortableMC</h1>
+        <h1 class="responsive-headline" style="font-size: 30px;">Portable Minecraft for bypassing school blocks.</h1>
+         <div id="header-btn">
+						<a href="#services" class="btn btn-secondary scrollTo-about">Learn More</a>
+						<a href="https://github.com/portablemc/portablemc/releases" class="btn btn-primary scrollTo-download">Download Now</a>
+					</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="services" class="page-section colord">
+  <div class="container">
+    <div class="row"> 
+      <!-- item -->
+      <div class="col-md-3 text-center"> <i class="material-icons" style="font-size:48px;color:white">computer</i>
+        <h3>Bypass <span class="id-color">Blocks</span></h3>
+        <p>PortableMC can currently run on any system that has java or jportable and windows.</p>
+      </div>
+      <!-- end: --> 
+      
+      <!-- item -->
+      <div class="col-md-3 text-center"> <i class="material-icons" style="font-size:48px;color:white">usb</i>
+        <h3>Portable <span class="id-color">Use</span></h3>
+        <p>Can be installed on a USB to transfer worlds between computers</p>
+      </div>
+      <!-- end: --> 
+      <!-- end:--> 
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<footer>
+  <div class="container">
+    <div class="social text-center"> <a href="https://twitter.com/yeetedmeme"><i class="fa fa-twitter"></i></a><a href="https://github.com/yetedmeme"><i class="fa fa-github"></i></a> </div>
+    <div class="clear"></div>
+    <!--CLEAR FLOATS--> 
+  </div>
+</footer>
+<!--/.page-section-->
+<section class="copyright">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center"> Copyright 2021 | All Rights Reserved - <a href="https://yeetedmeme.js.org" target="_blank">yeetedmeme</a></div>
+    </div>
+    <!-- / .row --> 
+  </div>
+</section>
 <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('ashhnry', {
     'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Donate',
+    'floating-chat.donateButton.text': 'Support me',
     'floating-chat.donateButton.background-color': '#00b9fe',
     'floating-chat.donateButton.text-color': '#fff'
   });
 </script>
-<div class="content-wrapper">
+<a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
 
-    <section class="hero is-landing is-large">
-        <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <span class="navbar-burger burger" data-target="mainNavbar">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="mainNavbar" class="navbar-menu">
-                        <div class="navbar-end">
-                            <a href="#feet" class="navbar-item">
-                                Features
-                            </a>
-                            <a href="https://github.com/portablemc/portablemc" class="navbar-item">
-                                Github Page
-                            </a>
-                            <span class="navbar-item">
-                                <a href="#download" class="button is-info is-inverted is-outlined">
-                                    <span>Download</span>
-                                </a>  
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
+<!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]--> 
+<script src="js/modernizr-latest.js"></script> 
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+<script src="js/bootstrap.min.js" type="text/javascript"></script> 
+<script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script src="js/jquery.nav.js" type="text/javascript"></script> 
+<script src="js/jquery.fittext.js"></script> 
+<script src="js/waypoints.js"></script> 
+ <script src="contact/jqBootstrapValidation.js"></script>
+ <script src="contact/contact_me.js"></script>
 
-        <div class="hero-body">
-            <div class="container has-text-centered">
-
-                <div class="columns">
-                    <div class="column is-6 is-offset-3">
-                        <h1 class="title is-1">
-                            PortableMC
-                        </h1>
-                        <h2 class="subtitle is-4">
-                            A portable version of Minecraft, great for bypassing school security and using without admin permissions
-                        </h2>
-                        <figure class="image">
-                            <img src="img/i.png" alt="" width="100">
-                        </figure>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="bg-light">
-        <div class="container section">
-            <div class="content has-text-centered">
-                <h1 id="feet" >Features</h1>
-            </div>
-
-            <nav class="columns">
-                <div class="column has-text-centered">
-                    <article class="media">
-                        <figure class="media-left">
-                            <span class="icon has-text-danger">
-                                <i class="fas fa-cog fa-3x"></i>
-                            </span>
-                        </figure>
-                        <div class="media-content">
-                            <div class="content">
-                                <h4 class="heading"><strong>Easy to setup!</strong></h4>
-                                <p>Download and extract the files, run the .exe and that's it! if you want to play again, use the same exe file!
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="column has-text-centered">
-                    <article class="media">
-                        <figure class="media-left">
-                            <span class="icon has-text-danger">
-                                <i class="fas fa-cog fa-3x"></i>
-                            </span>
-                        </figure>
-                        <div class="media-content">
-                            <div class="content">
-                                <h4 class="heading"><strong>Portable</strong></h4>
-                                <p>If you want to move your game across computers, portablemc is perfect! It all downloads into 1 folder and works on usbs!
-                                </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="column has-text-centered">
-                    <article class="media">
-                        <figure class="media-left">
-                            <span class="icon has-text-danger">
-                                <i class="fas fa-cog fa-3x"></i>
-                            </span>
-                        </figure>
-                        <div class="media-content">
-                            <div class="content">
-                                    <h4 class="heading"><strong>Perfect for bypassing school security</strong></h4>
-                                    <p>.ZIP download ensures that schools wont block it, no admin permissions needed, and can run off a usb
-                                    </p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </nav>
-        </div>
-    </section>
-    <section id="stn-download">
-        <div class="container section has-text-centered">
-            <div class="columns">
-                <div class="column is-half is-offset-one-quarter">
-
-                    <h1 class="title is-2">Download</h1>
-
-                    <a id="download" style="text-align:center;" href="https://github.com/portablemc/portablemc/releases" class="button button-store">
-                        <img src="img/github.png" alt="icon"> Github Download
-                    </a>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
-                <p>
-                    PortableMC built
-                    with
-                    <span class="icon has-text-danger">
-                        <i class="fas fa-heart"></i>
-                    </span>
-                    by <a href="https://yeetedmeme.js.org">yeetedmeme</a>
-                    @ 2020.
-                </p>
-            </div>
-        </div>
-    </footer>
-</div>
-
+<script src="js/custom.js" type="text/javascript"></script> 
+<script src="js/owl-carousel/owl.carousel.js"></script>
 </body>
 </html>
